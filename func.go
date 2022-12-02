@@ -3,8 +3,8 @@
 *
 * this function is invoked upon the existence of an event in object storage bucket
 * payload contains info about the file that triggered the event
-* the content of the file is read in a biffer and is passed to the vision engine
-* if and ibject detected belons to a list of objects to search passed as an anvironment variable
+* the content of the file is read in a buffer and is passed to the vision engine
+* if objects detected belongs to a list of names set as a parameter in hte function configuration,
 * then a notification is sent to a ons topic
 *
 */
